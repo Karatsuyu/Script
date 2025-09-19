@@ -11,7 +11,7 @@
   IMPORTANT:
   You must copy and use the FULL script below. Do NOT press on the link.:
 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Karatsuyu/Script/refs/heads/main/script.luau", true))()
 
 ----------------------------------------------------------------------------
   For support head over to discord.gg/voidware
@@ -182,5 +182,6 @@ task.spawn(function()
 end)
 
 local commit = shared.CustomCommit and tostring(shared.CustomCommit) or shared.StagingMode and "staging" or "3b3b6b58e840cad9ae32a59b77c15d89218c6147"
+
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/"..tostring(commit).."/newnightsintheforest.lua", true))()
